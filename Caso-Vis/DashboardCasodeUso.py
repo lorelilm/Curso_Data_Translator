@@ -40,6 +40,8 @@ app.layout = html.Div(children=[
             {"label": "Nonprofits & Activism", "value": "Nonprofits & Activism"},
             {"label": "Shows", "value": "Shows"},
 
+            #options= [{"label": x, "value": x} for x in np.sort(dfv["category_title"].unique())],
+
         ],
         value= 'Entertainment'
         ),
