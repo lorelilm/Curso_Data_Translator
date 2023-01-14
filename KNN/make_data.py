@@ -34,3 +34,4 @@ def make_data(n_features, n_pts, noise=0.0):
          X_plus_ones.reshape(n_pts, 1, n_features+1)).sum(axis=(1, 2))
     y += stats.norm(0, noise).rvs(n_pts)
     return X, y
+    
